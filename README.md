@@ -1,22 +1,22 @@
 # SQLite
 # Engineer healthcare data in a database format using SQL
 1. Installed SQLite
-```s
+```bash
 $ brew install sqlite
 ```
 2. Wrote SQL queries to get the data in a format that we want for modeling
 
 ## Steps:
 1.
-```s
+```bash
 $ sqlite3 # start sqlite
 ```
 2.
-```s
+```bash
 $ .output Health_data.csv # this will create an empty csv file in which the data will be stored
 ```
 3.
-```s
+```bash
 $ .read Health_data.sql # this will execute a SQL file
 ```
 ## Health_data.sql
